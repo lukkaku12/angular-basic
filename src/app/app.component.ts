@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mi-primera-app';
+  public name:string = 'pepito';
+  public nameModified: string = 'whatever';
+
+  changeName() {
+    this.nameModified = this.name + 'Modified'
+  }
 }
