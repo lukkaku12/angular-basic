@@ -3,11 +3,9 @@
   <h2 class="h2">
     {{name}}
   </h2>
-  <button (click)="changeName()">
-    cambiar nombre
+  <button (click)="returnCharacters()">
+    consigue los characters
   </button>
 
-  <h3>
-    {{nameModified}}
-  </h3>
+  <p>{{studentList | json }}</p>
 </main>
